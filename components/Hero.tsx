@@ -31,10 +31,14 @@ const Hero = () => {
 
       <div className='hero__image-container'>
         <div className='hero__image'>
-          <Image className='object-contain' alt='hero' fill src="/hero.png" />
-          <div className='hero__image-overlay' />
-
+          <Image 
+          className='object-contain' 
+          alt='hero' 
+          fill 
+          src="/hero.png"
+          />
         </div>
+        <div className='hero__image-overlay' />
       </div>
 
     </div>
