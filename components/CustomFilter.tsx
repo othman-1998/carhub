@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CustomFilter = ({}) => {
+const CustomFilter = ({title: string}) => {
   return (
-    <div>CustomFilter</div>
+    <div>{string}</div>
   )
 }
 
