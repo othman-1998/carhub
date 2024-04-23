@@ -30,7 +30,7 @@ const CarCard = ({car}: carCardProps) => {
 
         </div>
 
-        <p className="flex mt-6 text-[32px] font-extrabold">
+        {/* <p className="flex mt-6 text-[32px] font-extrabold">
             <span className="self-start text-[14px] font-semibold"> 
                 $
             </span>
@@ -38,11 +38,11 @@ const CarCard = ({car}: carCardProps) => {
             <span className="self-end text-[14px] font-medium"> 
                 /day 
             </span>
-        </p>
+        </p> */}
 
-        <div className="relative w-full h-40 my-3 object-contain">
+        <div className="relative w-full h-40 my-10 object-contain">
             <Image 
-            src={genereteCarImageUrl(car)}
+            src={genereteCarImageUrl(car, '29')}
             alt="car model"
             fill
             priority
